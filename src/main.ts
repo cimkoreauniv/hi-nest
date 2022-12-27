@@ -11,6 +11,7 @@ async function bootstrap() {
       transform: true
     }
   ));
+  console.log("hello world!");
   await app.listen(3000);
 }
 bootstrap();
