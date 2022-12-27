@@ -11,7 +11,8 @@ async function bootstrap() {
       transform: true
     }
   ));
-  console.log("hello world!");
+
+  console.log('I\'m master');
   await app.listen(3000);
 }
 bootstrap();
