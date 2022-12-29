@@ -11,6 +11,10 @@ async function bootstrap() {
       transform: true
     }
   ));
+<<<<<<< HEAD
+=======
+
+>>>>>>> d7f0348d30ce93217293a2ee19f76950820ccc72
   console.log('I\'m master');
   await app.listen(3000);
 }
